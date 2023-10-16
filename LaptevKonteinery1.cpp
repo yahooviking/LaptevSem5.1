@@ -21,7 +21,7 @@ public:
     void FormArray(double* arr);
     void PrintArray();
     void PrintArray2();
-    void Transformation();
+    void Transform();
 
 private:
     void Sum();
@@ -137,7 +137,7 @@ void array::FirstNeg()
     }
 }
 
-void array::Transformation()
+void array::Transform()
 {
     double temp;
     temp = (firstNegNum + Array2[5]) / 2;
@@ -179,7 +179,7 @@ int main()
     std::cout << arr.n << std::endl;
     arr.PrintArray();
     arr.PrintArray2();
-    arr.Transformation();
+    arr.Transform();
     arr.PrintArray2();
     
     double temp[100];
@@ -203,7 +203,7 @@ int main()
             arrAdd.FormArray(temp, num);
             arrAdd.PrintArray();
             arrAdd.PrintArray2();
-            arrAdd.Transformation();
+            arrAdd.Transform();
             arrAdd.PrintArray2();
 
             for (int i = 0; i < size+4; i++)
@@ -221,7 +221,7 @@ int main()
             arrSub.FormArray(temp);
             arrSub.PrintArray();
             arrSub.PrintArray2();
-            arrSub.Transformation();
+            arrSub.Transform();
             arrSub.PrintArray2();
 
             for (int i = 0; i < size + 4; i++)
